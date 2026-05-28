@@ -42,11 +42,11 @@ https://6a1799251878294b597ba692.mockapi.io/incidencias
 ## ⚙️ Instalación y ejecución local
 1. Clonar repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/TU_REPO.git
+   git clone https://github.com/manjarrezcristian/sistema-gestion-incidencias
    ```
 2. Entrar a la carpeta del proyecto:
    ```bash
-   cd TU_REPO
+   cd sistema-gestion-incidencias
    ```
 3. Instalar dependencias:
    ```bash
@@ -59,8 +59,26 @@ https://6a1799251878294b597ba692.mockapi.io/incidencias
 5. Ejecutar en desarrollo:
    ```bash
    npm run dev
-   ```
+```
 6. Compilar para producción:
    ```bash
    npm run build
    ```
+
+## 📂 Estructura del proyecto
+sistema-gestion-incidencias/
+├── public/ # Archivos estáticos
+├── src/
+│ ├──components/ # Componentes reutilizables
+│ ├──pages/ # Vistas completas de la aplicación
+│ ├── services/ # Conexión y configuración de la API
+│ ├── utils/ # Funciones auxiliares y lógica reutilizable
+│ ├── routes/ # Configuración y protección de rutas
+│ ├── App.jsx│
+│ ├── main.jsx
+├── .env.example # Ejemplo de configuración (seguridad)
+├── vercel.json # Configuración de despliegue
+├── tailwind.config.js
+├── package.json└── README.md
+
+
