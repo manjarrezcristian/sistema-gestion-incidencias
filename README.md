@@ -1,4 +1,4 @@
-﻿# 📋 sistema-gestion-incidencias - Sistema de Gestión de Incidencias
+# 📋 sistema-gestion-incidencias - Sistema de Gestión de Incidencias
 > Prueba técnica para el cargo de Desarrollador Frontend Junior (React)
 
 ## 🚀 Tecnologías utilizadas
@@ -28,10 +28,16 @@
 - ✅ Filtros funcionales: por estado y por prioridad
 - ✅ Buenas prácticas de asincronía: try/catch y manejo de carga
 
-## 🔗 Enlaces del proyecto
-- 📂 Repositorio GitHub: [https://github.com/TU_USUARIO/TU_REPO]
-- 🌐 Aplicación desplegada: [https://TU_ENLACE_VERCEL_O_NETLIFY]
-- 📊 API MockAPI: https://6a1799251878294b597ba692.mockapi.io/incidencias
+## 📌 Enlaces del Proyecto
+
+🔗 **Repositorio GitHub:**
+https://github.com/manjarrezcristian/sistema-gestion-incidencias
+
+🔗 **Aplicación en producción:**
+https://sistema-gestion-incidencias.vercel.app
+
+🔗 **API (MockAPI):**
+https://6a1799251878294b597ba692.mockapi.io/incidencias
 
 ## ⚙️ Instalación y ejecución local
 1. Clonar repositorio:
