@@ -1,5 +1,7 @@
 # 📋 sistema-gestion-incidencias - Sistema de Gestión de Incidencias
 > Prueba técnica para el cargo de Desarrollador Frontend Junior (React)
+> Sistema completo para la gestión, seguimiento y mantenimiento de incidencias técnicas.
+
 
 ## 🚀 Tecnologías utilizadas
 - React.js + Vite
@@ -40,13 +42,15 @@ https://sistema-gestion-incidencias.vercel.app
 https://6a1799251878294b597ba692.mockapi.io/incidencias
 
 ## ⚙️ Instalación y ejecución local
+La configuración de variables sensibles se gestiona mediante archivo de entorno local, el cual no se publica por seguridad. Sigue estos pasos para ejecutar el proyecto en tu equipo:
+
 1. Clonar repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/TU_REPO.git
+   git clone https://github.com/manjarrezcristian/sistema-gestion-incidencias.git
    ```
 2. Entrar a la carpeta del proyecto:
    ```bash
-   cd TU_REPO
+   cd sistema-gestion-incidencias
    ```
 3. Instalar dependencias:
    ```bash
@@ -62,5 +66,30 @@ https://6a1799251878294b597ba692.mockapi.io/incidencias
    ```
 6. Compilar para producción:
    ```bash
+   
    npm run build
-   ```
+   ``
+## Estructura del proyecto
+
+sistema-gestion-incidencias/
+├── public/              # Archivos estáticos
+├── src/
+│   ├── components/      # Componentes reutilizables
+│   ├── pages/           # Vistas completas de la aplicación
+│   ├── services/        # Conexión y configuración de la API
+│   ├── utils/           # Funciones auxiliares y lógica reutilizable
+│   ├── routes/          # Configuración y rutas protegidas
+│   ├── App.jsx
+│   └── main.jsx
+├── .env.example         # Ejemplo de configuración (seguridad)
+├── vercel.json          # Configuración de despliegue
+├── tailwind.config.js
+├── package.json
+└── README.md
+   
+
+
+
+
+
+   
